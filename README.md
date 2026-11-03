@@ -261,51 +261,7 @@ Secara umum, pembagian tugasnya adalah:
 ![Flow Aplikasi AuthBook](https://github.com/ReevanAzep/4524210083-ReevanAzephaIslamyIskandar-PBW-A-Praktikum8/blob/6c627497d53b206844f61da41218cae6c641523e/aspl.drawio.png)
 
 ## 🗄️ Entity Relationship Diagram
-
-Database AuthBook memiliki tabel utama users, authors, books, categories, dan book_category.
-
-```mermaid
-erDiagram
-    AUTHORS ||--o{ BOOKS : memiliki
-    BOOKS ||--o{ BOOK_CATEGORY : memiliki
-    CATEGORIES ||--o{ BOOK_CATEGORY : menghubungkan
-
-    AUTHORS {
-        int id PK
-        string name
-    }
-
-    BOOKS {
-        int id PK
-        string isbn
-        string title
-        int author_id FK
-        string publisher
-        text description
-        int year
-        string cover
-        string status
-    }
-
-    CATEGORIES {
-        int id PK
-        string name
-    }
-
-    BOOK_CATEGORY {
-        int id PK
-        int book_id FK
-        int category_id FK
-    }
-
-    USERS {
-        int id PK
-        string name
-        string email
-        string role
-        string password
-    }
-```
+![Flow Aplikasi AuthBook](https://github.com/ReevanAzep/4524210083-ReevanAzephaIslamyIskandar-PBW-A-Praktikum8/blob/6c627497d53b206844f61da41218cae6c641523e/Untitled.png)
 
 ### Penjelasan Relasi
 
