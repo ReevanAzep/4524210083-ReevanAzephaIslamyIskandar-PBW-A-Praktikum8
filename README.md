@@ -258,20 +258,7 @@ Secara umum, pembagian tugasnya adalah:
 - **SQLite:** Menyimpan data aplikasi.
 
 ### Alur Request hingga Response
-
-```mermaid
-flowchart TD
-    A[Pengguna] --> B[Browser]
-    B --> C[Laravel menerima Request]
-    C --> D[Middleware dan Autentikasi]
-    D --> E[Filament]
-    E --> F[Laravel Policy]
-    F --> G[Eloquent Model]
-    G --> H[(Database SQLite)]
-    H --> I[Data dikembalikan]
-    I --> J[Filament menyusun Response]
-    J --> B
-```
+![Admin Panel](<img width="242" height="1059" alt="aspl drawio" src="https://github.com/user-attachments/assets/b3a0852b-c0d6-478d-9e11-6cf343fd5363" />)
 
 ## 🗄️ Entity Relationship Diagram
 
