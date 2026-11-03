@@ -258,7 +258,7 @@ Secara umum, pembagian tugasnya adalah:
 - **SQLite:** Menyimpan data aplikasi.
 
 ### Alur Request hingga Response
-![Flow Aplikasi AuthBook](img/flow-authbook.png)
+![Flow Aplikasi AuthBook](https://github.com/ReevanAzep/4524210083-ReevanAzephaIslamyIskandar-PBW-A-Praktikum8/blob/6c627497d53b206844f61da41218cae6c641523e/aspl.drawio.png)
 
 ## 🗄️ Entity Relationship Diagram
 
