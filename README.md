@@ -258,7 +258,7 @@ Secara umum, pembagian tugasnya adalah:
 - **SQLite:** Menyimpan data aplikasi.
 
 ### Alur Request hingga Response
-![Admin Panel](<img width="242" height="1059" alt="aspl drawio" src="https://github.com/user-attachments/assets/b3a0852b-c0d6-478d-9e11-6cf343fd5363" />)
+![Flow Aplikasi AuthBook](img/flow-authbook.png)
 
 ## 🗄️ Entity Relationship Diagram
 
